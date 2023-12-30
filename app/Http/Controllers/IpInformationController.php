@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 //use Ip2location\IP2LocationLaravel\IP2LocationLaravel as IP2LocationLaravelService;
+use Illuminate\Support\Str;
 use IP2LocationLaravel;
 
 class IpInformationController extends Controller
@@ -23,8 +24,8 @@ class IpInformationController extends Controller
      */
     public function lookup()
     {
-        $records = IP2LocationLaravel::get('59.120.148.120', 'ws');
-        echo '國家代碼：' . $records['country_code'] . PHP_EOL;
-        echo '花費點數：' . $records['credits_consumed'] . PHP_EOL;
+        $information = IP2LocationLaravel::get('61.227.253.148', 'ws');
+        $information['country_name'] = Str::replace(' (Province of China)', '', $information['country_name']);
+        return view('visitor', compact('information'));
     }
 }
