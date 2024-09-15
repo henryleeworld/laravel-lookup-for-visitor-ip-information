@@ -1,15 +1,17 @@
 {
-    "Chunghwa Telecom Co. Ltd.": "中華電信",
+    "Asia Pacific Network Information Centre": "亞太網際網路資訊中心",
+    "Autonomous System Name": "自主系統名稱",
+    "Autonomous System Number": "自主系統碼",
     "City Name": "縣市名稱",
     "Country Code": "國家代碼",
     "Country Name": "國家名稱",
     "Get Information by IP Address": "透過 IP 位址取得資訊",
     "IP": "IP 位址",
-    "ISP": "網際網路連線服務公司",
     "Kaohsiung": "高雄市",
     "Latitude": "緯度",
     "Longitude": "經度",
-    "Net Speed": "網路速度",
     "Region Name": "地區名稱",
-    "Taiwan": "台灣"
+    "Taiwan": "台灣",
+    "Time Zone": "時區",
+    "Zip Code": "郵遞區號"
 }

@@ -1,9 +1,8 @@
-# Laravel 10 查詢訪客 IP 位址資訊
+# Laravel 11 查詢訪客 IP 位址資訊
 
 引入 ip2location 的 ip2location-laravel 套件來擴增查詢訪客 IP 位址資訊。一般而言，IP 位址多半是指出一個裝置所處的城市和州。有時，更不精確的時候，只會給出這個裝置連接到網路的國家或者地區。
 
 ## 使用方式
-- 打開 php.ini 檔案，啟用 PHP 擴充模組 GMP，並重啟服務器。
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
 ```sh
 $ git clone
@@ -13,7 +12,7 @@ $ git clone
 ```sh
 $ composer install
 ```
-- 產⽣ Laravel 要使用的一組 32 字元長度的隨機字串 APP_KEY 並存在 .env 內。
+- 產生 Laravel 要使用的一組 32 字元長度的隨機字串 APP_KEY 並存在 .env 內。
 ```sh
 $ php artisan key:generate
 ```
@@ -23,5 +22,5 @@ $ php artisan key:generate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/uhfmPai.png)
+![](https://i.imgur.com/KukO9vE.png)
 > 在網路世界中是用 IP 來辨別一個裝置
