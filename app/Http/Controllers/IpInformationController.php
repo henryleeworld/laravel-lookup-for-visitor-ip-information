@@ -10,8 +10,6 @@ class IpInformationController extends Controller
 {
     /**
      * Create a new controller instance.
-     *
-     * @return void
      */
     public function __construct()
     {
@@ -19,8 +17,6 @@ class IpInformationController extends Controller
 
     /**
      * Lookup.
-     *
-     * @return void
      */
     public function lookup()
     {
